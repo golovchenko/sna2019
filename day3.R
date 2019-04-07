@@ -5,7 +5,7 @@ rm(list=ls())
 
 
 ## setting the work directory
-setwd("C:/Users/htw606/Documents/2018 09 08 Universitet/Disinfo/Logistics/Own course/Courses 2018 info/SNA/scripts")
+setwd("Insert/your/own/working/direcotyr")
 
 
 ###########################################################################
@@ -13,7 +13,7 @@ setwd("C:/Users/htw606/Documents/2018 09 08 Universitet/Disinfo/Logistics/Own co
 ###########################################################################
 install.packages("tuber")
 library("tuber") #YouTube API V3.
-yt_oauth(app_id = "751322083724-f0j17h4umtcnvqnhe907lp0ger2s9jbl.apps.googleusercontent.com",
+yt_oauth(app_id = "insert_your_own_app_id",
          app_secret = "Vxg9be1nV4105HSfPG-r4-CE", token = '')
 
 ## download video details 
