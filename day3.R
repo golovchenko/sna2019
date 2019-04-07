@@ -14,7 +14,7 @@ setwd("Insert/your/own/working/direcotyr")
 install.packages("tuber")
 library("tuber") #YouTube API V3.
 yt_oauth(app_id = "insert_your_own_app_id",
-         app_secret = "Vxg9be1nV4105HSfPG-r4-CE", token = '')
+         app_secret = "insert_your_api_secret", token = '')
 
 ## download video details 
 pepe_video <- get_video_details("7Q5HK9HsBSU")
